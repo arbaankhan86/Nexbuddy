@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexbuddy – AI Assistant Platform & AI Tools</title>
+    <meta name="description" content="Build, train and deploy AI assistants for your business. 20+ AI tools and credit-based usage in one workspace.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-brand brand-wrapper">
+                <span class="brand-logo">N</span>
+                <span class="brand-name">Nexbuddy</span>
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto nav-links">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ai-tools">AI Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How it works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <div class="navbar-buttons">
+                    <a href="#" class="signin-btn">Sign in</a>
+                    <a href="#" class="start-btn">Start Free</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="row align-items-center g-0">
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>New · AI Assistant Platform · Powered by Nexbuddy</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Build Your Own<br>
+                        <span class="gradient-text">AI</span><br>
+                        <span class="gradient-text">Assistant Platform</span><br>
+                        for Business Growth
+                    </h1>
+                    <p class="hero-description">
+                        Train intelligent AI assistants using your own business data, automate customer conversations, generate content, and access powerful AI tools — all from one unified platform.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#" class="hero-start-btn">Start Free Trial <span class="arrow">→</span></a>
+                        <a href="#" class="hero-demo-btn"><span class="play-icon">▶</span> Watch Demo</a>
+                    </div>
+                    <div class="hero-features">
+                        <span>No coding required</span>
+                        <span class="feature-separator">•</span>
+                        <span>Secure cloud platform</span>
+                        <span class="feature-separator">•</span>
+                        <span>Credit-based AI usage</span>
+                        <span class="feature-separator">•</span>
+                        <span>Business-ready automation</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image-column">
+                    <div class="hero-image-box">
+                        <div class="hero-orb"></div>
+                        <img src="hero.jpg" alt="Nexbuddy AI Assistant Dashboard">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust / Security Badges -->
+    <section class="trust-section section-padding">
+        <div class="container">
+            <p class="section-label text-center mb-5">Built on enterprise-grade foundations</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="trust-card text-center">
+                        <div class="trust-icon">🔒</div>
+                        <div class="trust-title">SSL Secured</div>
+                        <div class="trust-desc">End-to-end TLS on every request</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="trust-card text-center">
+                        <div class="trust-icon">🛡️</div>
+                        <div class="trust-title">Privacy-First AI</div>
+                        <div class="trust-desc">Your data is never used to train public models</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="trust-card text-center">
+                        <div class="trust-icon">🔐</div>
+                        <div class="trust-title">Encrypted Storage</div>
+                        <div class="trust-desc">AES-256 at rest, isolated per workspace</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="trust-card text-center">
+                        <div class="trust-icon">🌐</div>
+                        <div class="trust-title">Business-Grade Infra</div>
+                        <div class="trust-desc">Globally distributed, autoscaling cloud</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="trust-card text-center">
+                        <div class="trust-icon">💳</div>
+                        <div class="trust-title">Secure Payments</div>
+                        <div class="trust-desc">PCI-DSS compliant payment partners</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="trust-card text-center">
+                        <div class="trust-icon">📜</div>
+                        <div class="trust-title">GDPR-Ready</div>
+                        <div class="trust-desc">Data residency and DPA available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Stats / Why Teams Choose Us -->
+
+<section class="stats-section section-padding" id="stats">
+    <div class="container stats-container">
+
+        <div class="stats-heading text-center">
+
+            <div class="stats-eyebrow">
+                WHY TEAMS CHOOSE US
+            </div>
+
+            <h2 class="stats-title">
+                The unified <span class="gradient-text">AI workspace</span> for<br>
+                modern businesses.
+            </h2>
+
+            <p class="stats-description">
+                From AI assistants to content, image and productivity tools — GENZ BOOST HUB is the<br class="stats-description-break">
+                operating system for your AI-first business.
+            </p>
+
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-card text-center">
+                <div class="stat-number gradient-text">10,000+</div>
+                <div class="stat-label">AI conversations generated</div>
+            </div>
+
+            <div class="stat-card text-center">
+                <div class="stat-number gradient-text">500+</div>
+                <div class="stat-label">businesses exploring AI automation</div>
+            </div>
+
+            <div class="stat-card text-center">
+                <div class="stat-number gradient-text">99.9%</div>
+                <div class="stat-label">platform availability</div>
+            </div>
+
+            <div class="stat-card text-center">
+                <div class="stat-number gradient-text">20+</div>
+                <div class="stat-label">AI tools in one workspace</div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- Features Grid -->
+    <section class="features-section section-padding" id="features">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Everything in one platform</h2>
+                <p class="section-subtitle">More than a chatbot. A full AI workspace.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3 class="feature-name">Custom AI Assistants</h3>
+                        <p class="feature-desc">Build branded assistants trained on your documents, FAQs and workflows.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3 class="feature-name">AI Chatbot Training</h3>
+                        <p class="feature-desc">Upload PDFs, sitemaps and knowledge bases — your assistant learns your business.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">✍️</div>
+                        <h3 class="feature-name">AI Content Studio</h3>
+                        <p class="feature-desc">Long-form articles, ads, scripts and rewrites that actually convert.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3 class="feature-name">AI Image & Vision</h3>
+                        <p class="feature-desc">Generate visuals from prompts and analyze images for context.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-name">Productivity Suite</h3>
+                        <p class="feature-desc">Speech-to-text, voiceover, code, RSS digests and more — all in one workspace.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">📣</div>
+                        <h3 class="feature-name">Marketing Automation</h3>
+                        <p class="feature-desc">SEO articles, brand voice, YouTube hooks — built to ship campaigns faster.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">💎</div>
+                        <h3 class="feature-name">Credit-Based Usage</h3>
+                        <p class="feature-desc">Pay only for what you use. Scale up or down without rebuying plans.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔌</div>
+                        <h3 class="feature-name">Business AI Automation</h3>
+                        <p class="feature-desc">Connect to CRM, WhatsApp and APIs to automate end-to-end workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools -->
+    <section class="tools-section section-padding" id="ai-tools">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">20+ AI Tools in one workspace.</h2>
+                <p class="section-subtitle">Chatbots, writing, image, code, voice — every AI superpower your team needs.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">🤖</div>
+                        <div class="tool-name">AI Chat Assistants</div>
+                        <div class="tool-desc">Train branded assistants and embed in minutes.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">📝</div>
+                        <div class="tool-name">AI Article Wizard</div>
+                        <div class="tool-desc">SEO-optimised long-form articles in one click.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">✒️</div>
+                        <div class="tool-name">AI Writer</div>
+                        <div class="tool-desc">Blog posts, emails and ads that convert.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">🌄</div>
+                        <div class="tool-name">AI Image</div>
+                        <div class="tool-desc">Generate stunning visuals from a prompt.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">💻</div>
+                        <div class="tool-name">AI Code</div>
+                        <div class="tool-desc">Production-ready code in any language.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">👁️</div>
+                        <div class="tool-name">AI Vision</div>
+                        <div class="tool-desc">Analyse images for context and content.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                       <div class="feature-icon">🔄</div>
+                        <div class="tool-name">AI ReWriter</div>
+                        <div class="tool-desc">Polish drafts to professional quality.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">▶️</div>
+                        <div class="tool-name">AI YouTube</div>
+                        <div class="tool-desc">Titles, hooks, scripts and hashtags.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">📡</div>
+                        <div class="tool-name">AI RSS</div>
+                        <div class="tool-desc">Fresh content from your favourite feeds.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">🎙️</div>
+                        <div class="tool-name">AI Voiceover</div>
+                        <div class="tool-desc">Voice-ready scripts with pacing.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">🗣️</div>
+                        <div class="tool-name">Speech to Text</div>
+                        <div class="tool-desc">Clean, punctuated transcripts.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card text-center">
+                        <div class="feature-icon">🎤</div>
+                        <div class="tool-name">Brand Voice</div>
+                        <div class="tool-desc">Define and lock in your brand tone.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-gradient btn-lg">Try All Tools Free →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Guide -->
+    <section class="guide-section section-padding">
+        <div class="container">
+            <div class="guide-intro text-center">
+                <div class="guide-label">THE GUIDE</div>
+                <h2 class="section-title">What is an AI Assistant Platform?</h2>
+                <p class="guide-text">An AI assistant platform is a unified SaaS environment where businesses can design, train, and deploy intelligent virtual assistants — without writing code. Instead of stitching together half a dozen point tools, Nexbuddy brings AI chatbots, content generation, image creation, automation and analytics into a single workspace billed on flexible credit-based usage.</p>
+                <p class="guide-text">For modern startups, agencies and enterprises, this means faster customer support, more qualified leads, higher conversion rates and a measurable lift in team productivity — all powered by AI assistants that genuinely understand your business.</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="guide-subtitle">How Businesses Use AI Assistants</h3>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="guide-list-item">
+                        <div class="guide-bullet gradient-text">●</div>
+                        <div><strong>Customer Support</strong><br>Resolve common queries instantly with brand-trained assistants that escalate to humans only when needed.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="guide-list-item">
+                        <div class="guide-bullet gradient-text">●</div>
+                        <div><strong>Sales Automation</strong><br>Qualify leads in real time, recommend the right product and book meetings inside the chat.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="guide-list-item">
+                        <div class="guide-bullet gradient-text">●</div>
+                        <div><strong>Lead Generation</strong><br>Convert anonymous visitors into qualified leads with conversational forms and intent detection.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="guide-list-item">
+                        <div class="guide-bullet gradient-text">●</div>
+                        <div><strong>FAQ Handling</strong><br>Train your assistant on your knowledge base so customers get accurate answers, 24/7.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="guide-list-item">
+                        <div class="guide-bullet gradient-text">●</div>
+                        <div><strong>Appointment Booking</strong><br>Let customers self-serve calendar bookings without leaving the conversation.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="guide-list-item">
+                        <div class="guide-bullet gradient-text">●</div>
+                        <div><strong>Internal Workflows</strong><br>Automate HR, IT and ops queries with AI assistants for your own teams.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-10 mx-auto">
+                    <h3 class="guide-subtitle">How AI Training Works</h3>
+                    <p class="guide-text">Training a high-quality AI assistant is a guided process — not a one-click illusion. Inside Nexbuddy you upload PDFs, paste website URLs, import sitemaps, add curated FAQs, and define a brand voice. Our AI onboarding system processes this content, indexes it for fast retrieval, and tunes the assistant to respond in your tone and within your business rules.</p>
+                    <div class="row g-3 mt-3">
+                        <div class="col-md-6">
+                            <div class="step-card">
+                                <div class="step-number gradient-text">01</div>
+                                <div class="step-text">Upload knowledge sources (PDF, DOCX, URLs, sitemaps).</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-card">
+                                <div class="step-number gradient-text">02</div>
+                                <div class="step-text">Add curated FAQs and product information.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-card">
+                                <div class="step-number gradient-text">03</div>
+                                <div class="step-text">Define brand voice, tone and persona guardrails.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-card">
+                                <div class="step-number gradient-text">04</div>
+                                <div class="step-text">Smart AI learning indexes and embeds your content securely.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-card">
+                                <div class="step-number gradient-text">05</div>
+                                <div class="step-text">Test in a sandbox, refine answers, then deploy with one click.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Management -->
+    <section class="lead-section section-padding">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 order-lg-2 lead-content">
+                    <div class="lead-eyebrow">AI LEAD MANAGEMENT</div>
+                    <h2 class="lead-title">From <span class="gradient-text">'Hi'</span> to closed deal —<br>in one workspace.</h2>
+                    <p class="lead-text">Get summarized, categorized and prioritized conversations in real-time. Trigger automated follow-ups across email and WhatsApp while your team focuses on the deals that matter most.</p>
+                    <ul class="lead-list list-unstyled">
+                        <li><span class="lead-check">✓</span><span>AI-summarized conversations</span></li>
+                        <li><span class="lead-check">✓</span><span>Auto-categorized intent &amp; sentiment</span></li>
+                        <li><span class="lead-check">✓</span><span>One-click follow-up email &amp; WhatsApp</span></li>
+                        <li><span class="lead-check">✓</span><span>Live human takeover when needed</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="lead-image-box">
+                        <img src="lead.jpg" alt="Nexbuddy Lead Management">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how-section section-padding" id="how-it-works">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">A guided 3-step AI onboarding.</h2>
+                <p class="section-subtitle">Create your AI assistant in minutes and customize it with your business knowledge, documents, FAQs, and workflows for smarter automated conversations.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="step-card-lg text-center">
+                        <div class="step-lg-number gradient-text">01</div>
+                        <h3 class="step-lg-title">Create Your Workspace</h3>
+                        <p class="step-lg-desc">Sign up in minutes, invite your team, and choose a plan that matches your usage — monthly or yearly.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card-lg text-center">
+                        <div class="step-lg-number gradient-text">02</div>
+                        <h3 class="step-lg-title">Train Your AI Assistant</h3>
+                        <p class="step-lg-desc">Upload documents, paste website URLs, add FAQs and define your brand voice. Our AI onboarding system guides you step-by-step.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card-lg text-center">
+                        <div class="step-lg-number gradient-text">03</div>
+                        <h3 class="step-lg-title">Deploy & Automate</h3>
+                        <p class="step-lg-desc">Embed on your website with a single snippet, connect to WhatsApp or APIs, and let your AI assistant handle conversations 24/7.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="industries-section section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="industries-image-box">
+                        <img src="team.jpg" alt="Nexbuddy AI Assistant">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="industries-content">
+                        <div class="industries-eyebrow">BUILT FOR STARTUPS, AGENCIES &amp; ENTERPRISES</div>
+                        <h2 class="industries-title">One platform. <span class="gradient-text">Every industry.</span></h2>
+                        <div class="row g-3 industry-grid">
+                            <div class="col-6"><div class="industry-card">Healthcare &amp; Clinics</div></div>
+                            <div class="col-6"><div class="industry-card">Real Estate</div></div>
+                            <div class="col-6"><div class="industry-card">D2C &amp; E-commerce</div></div>
+                            <div class="col-6"><div class="industry-card">SaaS &amp; B2B</div></div>
+                            <div class="col-6"><div class="industry-card">Education &amp; Coaching</div></div>
+                            <div class="col-6"><div class="industry-card">BFSI</div></div>
+                            <div class="col-6"><div class="industry-card">Travel &amp; Hospitality</div></div>
+                            <div class="col-6"><div class="industry-card">Agencies</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section section-padding" id="faq">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Frequently asked questions</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion custom-accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1Content" aria-expanded="true" aria-controls="faq1Content">How does AI assistant training work?</button>
+                            </h2>
+                            <div id="faq1Content" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">You upload your business documents, FAQs, product catalogs or website URLs. Our onboarding system processes this content, indexes it, and tunes the assistant to your brand voice. Most assistants are ready to test within minutes and reach production-quality after a short training and review cycle.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2Content" aria-expanded="false" aria-controls="faq2Content">Can I upload my business documents?</button>
+                            </h2>
+                            <div id="faq2Content" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Yes. PDFs, DOCX, TXT, sitemaps, FAQs and direct URLs are all supported. You can also re-train at any time as your knowledge base evolves.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3Content" aria-expanded="false" aria-controls="faq3Content">What are AI credits?</button>
+                            </h2>
+                            <div id="faq3Content" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Credits are a flexible usage unit. Each AI action — a chat message, a generated article, an image — consumes credits based on its complexity. This means you only pay for what you use instead of fixed message caps.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4Content" aria-expanded="false" aria-controls="faq4Content">Is coding knowledge required?</button>
+                            </h2>
+                            <div id="faq4Content" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">No. The entire platform is no-code. You can train, configure, and deploy your AI assistant using our visual interface. Developers can optionally use the API for deeper integrations.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5Content" aria-expanded="false" aria-controls="faq5Content">Can I integrate AI on my website?</button>
+                            </h2>
+                            <div id="faq5Content" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Yes. Copy a single embed snippet to add the assistant to any website. WhatsApp Business, CRM and API integrations are available on Growth, Business and Enterprise plans.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6Content" aria-expanded="false" aria-controls="faq6Content">Is my business data secure?</button>
+                            </h2>
+                            <div id="faq6Content" class="accordion-collapse collapse" aria-labelledby="faq6" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">All data is encrypted in transit (TLS) and at rest (AES-256), isolated per workspace, and never used to train shared models. We are GDPR-aligned and offer DPAs and data residency on Business and Enterprise plans.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq7">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7Content" aria-expanded="false" aria-controls="faq7Content">Can teams collaborate?</button>
+                            </h2>
+                            <div id="faq7Content" class="accordion-collapse collapse" aria-labelledby="faq7" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Yes. Invite teammates, assign roles, and share assistants, knowledge bases and templates across the workspace.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8Content" aria-expanded="false" aria-controls="faq8Content">How quickly can I deploy my AI assistant?</button>
+                            </h2>
+                            <div id="faq8Content" class="accordion-collapse collapse" aria-labelledby="faq8" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">You can launch a basic assistant in minutes. A fully trained, production-ready assistant typically goes live within a few days — depending on the volume of training material and the integrations required.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-box text-center">
+                <h2 class="cta-title">Launch your AI-first business — today.</h2>
+                <p class="cta-subtitle">Join the businesses building intelligent assistants and automating workflows with Nexbuddy.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-gradient btn-lg">Start Free Trial</a>
+                    <a href="#" class="btn btn-outline-light btn-lg">See Plans</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <span class="brand-logo">N</span>
+                        <span class="brand-name"><span class="brand-white">Nex</span><span class="brand-pink">buddy</span></span>
+                    </div>
+                    <p class="footer-desc">Empowering businesses with next-generation AI automation and intelligent digital workflows. Build, train and deploy AI assistants and access 20+ AI tools — all from one unified platform.</p>
+                    <div class="footer-badges">
+                        <span class="footer-badge">SSL Secured</span>
+                        <span class="footer-badge">GDPR-Ready</span>
+                        <span class="footer-badge">AES-256</span>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4 class="footer-heading">Product</h4>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#ai-tools">AI Tools</a></li>
+                        <li><a href="#how-it-works">How it works</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">About Nexbuddy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links list-unstyled">
+                        <li>+91 97733 75525</li>
+                        <li><a href="mailto:sales@nexbuddy.in">sales@nexbuddy.in</a></li>
+                        <li>F-50, Kohinoor City Mall,<br>Kurla (W), Mumbai 400070</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="text-center footer-bottom">
+                <p class="footer-copy">© 2026 Nexbuddy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
