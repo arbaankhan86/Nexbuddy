@@ -373,18 +373,18 @@ body {
 }
 
 .hero-start-btn {
-    min-width: 260px;
-    height: 64px;
-    padding: 0 32px;
+    min-width: 50px;
+    height: 50px;
+    padding:  22px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    border-radius: 40px;
+    gap: 5px;
+    border-radius: 200px;
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     background: linear-gradient(100deg, #ef62cc 0%, #ad6df5 50%, #6998ff 100%);
     box-shadow: 0 10px 35px rgba(145, 87, 240, 0.18);
     transition: all 0.3s ease;
@@ -398,25 +398,25 @@ body {
 }
 
 .arrow {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1;
 }
 
 .hero-demo-btn {
-    height: 64px;
-    min-width: 240px;
-    padding: 0 28px;
+    height: 50px;
+    min-width: 50px;
+    padding:  22px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    border-radius: 40px;
+    gap: 5px;
+    border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.03);
     color: rgba(239, 240, 247, 0.9);
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
 }
@@ -648,11 +648,12 @@ body {
 }
 
 .trust-card {
-    padding: 28px 18px;
+    padding: 18px 8px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.02);
     transition: all 0.3s ease;
+    height: 100%;
 }
 
 .trust-card:hover {
@@ -679,9 +680,7 @@ body {
     line-height: 1.5;
 }
 
-/* =========================================
-   STATS
-========================================= */
+
 /* =========================================================
    WHY TEAMS CHOOSE US — EXACT REFERENCE LAYOUT
    ========================================================= */
@@ -948,7 +947,7 @@ body {
 }
 
 .feature-card {
-    padding: 32px 26px;
+    padding: 22px 16px;
     border-radius: 22px;
     border: 1px solid rgba(255, 255, 255, 0.07);
     background: rgba(255, 255, 255, 0.015);
@@ -991,7 +990,7 @@ body {
 
 .tool-card {
     padding: 28px 18px;
-    border-radius: 18px;
+    border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     background: rgba(255, 255, 255, 0.015);
     transition: all 0.3s ease;
@@ -1048,29 +1047,39 @@ body {
 
 .guide-section {
     background: linear-gradient(180deg, #0a0818 0%, #0c1028 100%);
+    
+    
 }
 
 .guide-intro {
-    max-width: 1600px;
+    max-width: 1450px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .guide-label {
     color: #ef65d5;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 28px;
+    letter-spacing: 1.8px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    text-align: left;
 }
 
 .guide-intro .section-title {
-    margin-bottom: 28px;
+    margin-bottom: 24px;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: -1.2px;
+    text-align: left;
 }
 
 .guide-intro .guide-text {
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1450px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
 }
 
 .guide-text {
@@ -1149,7 +1158,100 @@ body {
     color: rgba(218, 221, 237, 0.80);
     font-size: 15px;
     line-height: 1.5;
+
 }
+.training-list {
+    padding-left: 35px;
+    margin-top: 25px;
+}
+
+.training-list li {
+    color: rgba(218, 221, 237, 0.80) !important;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.training-list li::marker {
+    color: rgba(218, 221, 237, 0.80) !important;
+}
+/* GUIDE — HOW BUSINESSES USE AI ASSISTANTS */
+
+.guide-section .guide-intro + .row > .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.guide-section .guide-intro + .row .guide-subtitle {
+    text-align: left !important;
+}
+
+.guide-section .guide-intro + .row .guide-list-item {
+    min-height: 104px;
+    padding: 28px 32px;
+    margin-bottom: 24px;
+    border-radius: 18px;
+    gap: 14px;
+}
+
+.guide-section .guide-intro + .row .guide-list-item div:last-child {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.guide-section .guide-intro + .row .guide-bullet {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* TABLET */
+@media (max-width: 991px) {
+    .guide-section .guide-intro + .row > .col-md-6 {
+        width: 50%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .guide-section .guide-intro + .row > .col-md-6 {
+        width: 100%;
+    }
+
+    .guide-section .guide-intro + .row .guide-subtitle {
+        text-align: left !important;
+    }
+}
+/* HOW AI TRAINING WORKS */
+
+.guide-section .step-card {
+    min-height: 78px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    gap: 14px;
+    align-items: center;
+}
+
+.guide-section .step-number {
+    font-size: 22px;
+}
+
+.guide-section .step-text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* 2 columns */
+.guide-section .row.g-3.mt-3 > .col-md-6 {
+    width: 50%;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .guide-section .row.g-3.mt-3 > .col-md-6 {
+        width: 100%;
+    }
+}
+
 
 /* =========================================
    LEAD MANAGEMENT
@@ -1700,13 +1802,13 @@ body {
 @media (min-width: 1200px) {
 
     .container {
-        width: 100% !important;
-        max-width: none !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        padding-left: 38px !important;
-        padding-right: 38px !important;
-    }
+    width: 100%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
     .navbar-container {
         width: 100% !important;
@@ -1722,12 +1824,7 @@ body {
         padding-right: 38px !important;
     }
 
-    .guide-section > .container {
-        width: 100% !important;
-        max-width: none !important;
-        padding-left: 38px !important;
-        padding-right: 38px !important;
-    }
+    
 }
 @media (max-width: 991px) {
     .nav-links {
