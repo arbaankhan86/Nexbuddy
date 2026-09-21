@@ -2012,3 +2012,59 @@ body {
         overflow-wrap: break-word;
     }
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+   ========================= */
+
+@media (max-width: 767px) {
+
+    /* HERO IMAGE */
+    .hero-image-box {
+        width: 100%;
+        max-width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+
+    .hero-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* GUIDE SECTION */
+    .guide-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .guide-section .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .guide-section .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .guide-section .col-lg-6,
+    .guide-section .col-md-6,
+    .guide-section .col-6 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .guide-section h2,
+    .guide-section .guide-title {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .guide-section p,
+    .guide-section .guide-description {
+        width: 100%;
+        max-width: 100%;
+    }
+}
