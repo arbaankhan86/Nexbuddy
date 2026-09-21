@@ -442,7 +442,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 150px;
 }
 
 .hero-image-box {
@@ -465,6 +465,7 @@ body {
     object-fit: cover;
     border-radius: inherit;
     transform: scale(1.1);
+    margin-right: -20px;
 }
 
 /* Gradient ball */
@@ -476,7 +477,7 @@ body {
     height: 140px !important;
 
     right: -200px !important;
-    bottom: -75px !important;
+    bottom: -55px !important;
 
     object-fit: contain !important;
 
@@ -615,10 +616,10 @@ body {
 
 .section-title {
     color: #f5f5fb;
-    font-size: clamp(50px, 3vw, 52px);
-    font-weight:  500;
+    font-size: clamp(30px, 3vw, 32px);
+    font-weight:  600;
     letter-spacing: -1.5px;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .section-subtitle {
@@ -836,7 +837,7 @@ body {
     font-size: 48px;
     line-height: 1.08;
 
-    font-weight: 800;
+    font-weight: 600;
 
     letter-spacing: -3.2px;
 }
@@ -860,7 +861,7 @@ body {
 .stats-description {
     max-width: 1250px;
 
-    margin: 39px auto 0;
+    margin: 30px auto 0;
 
     color: rgba(218, 221, 237, 0.78);
 
@@ -882,7 +883,7 @@ body {
 
     width: 100%;
 
-    margin-top: 96px;
+    margin-top: 75px;
 }
 
 /* CARD */
@@ -1082,8 +1083,8 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 35px;
-    padding: 12px 24px;
-    font-size: 18px;
+    padding: 15px 19px;
+    font-size: 14px;
     font-weight: 600;
     box-shadow: 0 8px 28px rgba(139, 100, 255, 0.2);
     transition: all 0.3s ease;
@@ -1331,7 +1332,7 @@ body {
     width: 100%;
     display: block;
     object-fit: cover;
-    aspect-ratio: 13 / 10;
+    aspect-ratio: 13 / 10.;
 }
 
 @media (max-width: 991px) {
@@ -1476,7 +1477,7 @@ body {
     font-weight: 600;
     line-height: 1.0;
     letter-spacing: -2.5px;
-    margin-bottom: 22px;
+    margin-bottom: 7px;
 }
 
 .industry-grid {
@@ -1582,8 +1583,8 @@ body {
 
 .cta-subtitle {
     color: rgba(218, 221, 237, 0.75);
-    font-size: clamp(16px, 1.6vw, 20px);
-    margin-bottom: 36px;
+    font-size: clamp(15px, 1.6vw, 15px);
+    margin-bottom: 32px;
 }
 
 .cta-buttons {
@@ -1629,7 +1630,7 @@ body {
 
 .footer-desc {
     color: rgba(218, 221, 237, 0.65);
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.7;
     margin-bottom: 20px;
     max-width: 320px;
@@ -1642,12 +1643,12 @@ body {
 }
 
 .footer-badge {
-    padding: 6px 14px;
+    padding: 5px 7px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.12);
     background: rgba(255, 255, 255, 0.02);
     color: rgba(218, 221, 237, 0.70);
-    font-size: 13px;
+    font-size: 9px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1666,7 +1667,7 @@ body {
 
 .footer-links a, .footer-links li {
     color: rgba(218, 221, 237, 0.65);
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
     transition: all 0.3s ease;
     line-height: 1.5;
