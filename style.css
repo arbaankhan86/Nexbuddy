@@ -1089,6 +1089,19 @@ body {
     line-height: 1.5;
 }
 
+.btn-tool {
+    background: linear-gradient(100deg, #ef62cc 0%, #ad6df5 50%, #6998ff 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 35px;
+    padding: 17px 19px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 8px 28px rgba(139, 100, 255, 0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
 .btn-gradient {
     background: black;
     color: #ffffff;
@@ -1269,6 +1282,10 @@ body {
     background: linear-gradient(180deg, #0c1028 0%, #100c25 100%);
 }
 
+.lead-content {
+    padding-left: 30px;
+}
+
 .lead-eyebrow {
     color: #ef65d5;
     font-size: 14px;
@@ -1282,12 +1299,13 @@ body {
 
 .lead-title {
     color: #f5f5fb;
-    font-size: clamp(49px, 4vw, 28px);
+    font-size: clamp(28px, 4vw, 49px);
     font-weight: 600;
     line-height: 1.08;
     letter-spacing: -2.5px;
     margin: 0 0 16px;
 }
+
 
 .lead-text {
     color: rgba(218, 221, 237, 0.75);
