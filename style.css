@@ -341,7 +341,7 @@ body {
     margin: 0;
     color: #f5f5fb;
     font-size: 58px;
-    font-size: clamp(48px, 4vw, 80px);
+    font-size: 60px;
     line-height: 1.09;
     font-weight: bold;
     letter-spacing: -2.5px;
@@ -568,7 +568,7 @@ body {
     }
 .hero-image-column {
         padding-left: 0;
-        margin-top:0px;
+        margin-top:-95px;
     }
     .hero-orb {
     width: 300px !important;
@@ -1116,7 +1116,7 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 35px;
-    padding: 18px 25px;
+    padding: 17px 33px;
     font-size: 15px;
     font-weight: 500;
     box-shadow: 0 8px 28px rgba(139, 100, 255, 0.2);
@@ -1125,9 +1125,10 @@ body {
 }
 
 .btn-gradient:hover {
+    background: rgba(0, 0, 0, 0.75);
     color: #ffffff;
-    transform: translateY(-3px);
-    box-shadow: 0 14px 38px rgba(139, 100, 255, 0.35);
+    border-color: transparent;
+    transform: translateY(-2px);
 }
 
 /* =========================================
@@ -1308,7 +1309,7 @@ body {
 
 .lead-title {
     color: #f5f5fb;
-    font-size: clamp(28px, 4vw, 49px);
+    font-size: 52px;
     font-weight: 600;
     line-height: 1.08;
     letter-spacing: -2.5px;
@@ -1513,7 +1514,7 @@ body {
 
 .industries-title {
     color: #f5f5fb;
-    font-size: clamp(42px, 4vw, 54px);
+    font-size: 52px;
     font-weight: 600;
     line-height: 1.0;
     letter-spacing: -2.5px;
@@ -1908,15 +1909,7 @@ body {
 /* FULL PAGE ALIGNMENT - DESKTOP ONLY */
 
 @media (min-width: 1200px) {
-    .container {
-        width: 100% !important;
-        max-width: none !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        padding-left: 38px !important;
-        padding-right: 38px !important;
-    }
-
+   
     .navbar-container {
         width: 100% !important;
         max-width: none !important;
