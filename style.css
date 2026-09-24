@@ -780,17 +780,46 @@ body {
 }
 
 @media (max-width: 576px) {
-.trust-section {
-        padding: 60px 15px !important;
+
+    .trust-section {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
     }
-.trust-section .section-label {
-        margin-bottom: 30px !important;
-        font-size: 13px !important;
-        letter-spacing: 1px !important;
+
+    .trust-section .row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 16px !important;
+        margin: 0 !important;
     }
-.trust-section .trust-card {
+
+    .trust-section .row > .col-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .trust-section .trust-card {
+        width: 100% !important;
         height: auto !important;
-        min-height: 120px !important;
+        min-height: 150px !important;
+        margin: 0 !important;
+        padding: 5px 16px !important;
+        border-radius: 24px !important;
+    }
+
+    .trust-section .trust-title {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .trust-section .trust-desc {
+        font-size: 13px !important;
+        line-height: 1.45 !important;
+        max-width: 100% !important;
     }
 }
 
@@ -1859,7 +1888,7 @@ body {
 
     .footer-desc {
         max-width: 100%;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .footer-brand {
@@ -1876,6 +1905,16 @@ body {
 
     .footer-bottom {
         text-align: center;
+    }
+    .footer-badges {
+    flex-wrap: nowrap;
+    gap: 8px;
+    }
+    .footer-badge {
+    padding: 4px 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    white-space: nowrap;
     }
 }
 /* =========================================
@@ -1897,23 +1936,35 @@ body {
     }
 }
 @media (max-width: 767px) {
-.section-padding {
+    .section-padding {
         padding: 50px 0;
     }
-.cta-section {
+
+    .cta-section {
         padding: 60px 0;
     }
-.cta-box {
+
+    .cta-box {
         padding: 40px 40px;
         border-radius: 24px;
     }
-.cta-buttons {
+
+    .cta-buttons {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
-.cta-buttons .btn {
-        width: 100%;
 
+    .cta-buttons .btn {
+        width: auto;
+    }
+
+    .cta-buttons .btn:first-child {
+        width: 200px;
+    }
+
+    .cta-buttons .btn:last-child {
+        width: 160px;
     }
 }
 
