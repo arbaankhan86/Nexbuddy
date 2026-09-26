@@ -268,7 +268,7 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
 .brand-name {
         font-size: 14px;
     }
@@ -461,7 +461,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-left: 60px;
-    padding-top: 150px;
+    padding-top: 30px;
 }
 
 .hero-image-box {
@@ -575,7 +575,7 @@ body {
     }
 .hero-image-column {
         padding-left: 0;
-        margin-top:-118px;
+        
     }
     .hero-orb {
     width: 300px !important;
@@ -585,7 +585,7 @@ body {
 }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 .hero-badge {
         padding: 1px 5px;
         font-size: 10px;
@@ -614,9 +614,8 @@ body {
 .hero-demo-btn {
     width: auto;
     min-width: 0;
-    height: 52px;
-    padding: 0 18px;
-    font-size: 14px;
+    padding: 0 10px;
+    font-size: 13px;
     white-space: nowrap;
 }
 .hero-features {
@@ -695,7 +694,7 @@ body {
 .trust-section .section-label {
     display: block;
 
-    margin: 0 0 40px !important;
+    margin: -30px 0 24px !important;
 
     color: rgba(218, 221, 237, 0.72) !important;
 
@@ -795,11 +794,10 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 
     .trust-section {
-        padding-left: 14px !important;
-        padding-right: 14px !important;
+    
     }
 
     .trust-section .row {
@@ -837,6 +835,33 @@ body {
         line-height: 1.45 !important;
         max-width: 100% !important;
     }
+}
+/* =========================================
+   TRUST SECTION - TABLET ONLY
+   ========================================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .trust-section .trust-card {
+        height: 150px !important;
+        min-height: 150px !important;
+        padding: 18px 12px !important;
+        margin: 4px !important;
+        overflow: visible !important;
+    }
+
+    .trust-section .trust-title {
+        font-size: 15px !important;
+        line-height: 1.35 !important;
+        margin-bottom: 8px !important;
+    }
+
+    .trust-section .trust-desc {
+        font-size: 12px !important;
+        line-height: 1.45 !important;
+        max-width: 150px !important;
+    }
+
 }
 
 /* ======================
@@ -1044,11 +1069,11 @@ body {
         letter-spacing: 1.8px;
     }
 .stats-title {
-        font-size: 31px;
+        font-size: 24px;
         letter-spacing: -1.8px;
     }
 .stats-description {
-        font-size: 17px;
+        font-size: 14px;
         line-height: 1.65;
     }
 .stats-description-break {
@@ -1327,8 +1352,15 @@ body {
 @media (max-width: 767px) {
 .guide-section .row.g-3.mt-3 > .col-md-6 {
         width: 100%;
-    }
 }
+ .btn-tool {
+        width: 50%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+}
+
 
 /* =========================================
    LEAD MANAGEMENT
@@ -1449,25 +1481,25 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 .lead-eyebrow {
         font-size: 13px;
         letter-spacing: 1.5px;
     }
 .lead-title {
-        font-size: 31px;
+        font-size: 24px;
         letter-spacing: -1.5px;
         line-height: 1.12;
         margin-bottom: 24px;
     }
 .lead-text {
-        font-size: 17px;
+        font-size: 14px;
         line-height: 1.6;
         margin-bottom: 28px;
     }
 .lead-list li {
         gap: 12px;
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 14px;
     }
 .lead-check {
@@ -1476,6 +1508,7 @@ body {
         min-width: 28px;
         font-size: 14px;
     }
+
 }
 
 /* =========================================
@@ -1674,9 +1707,15 @@ body {
 @media (max-width: 767px) {
 
 .faq-title {
-        font-size:29px;
+        font-size:24px;
     }
-
+.custom-accordion {
+      gap:7px;
+}
+.custom-accordion .accordion-button {
+        padding: 10px 17px;
+        font-size: 14px;
+    }
 }
 
 /* =========================================
@@ -1881,7 +1920,7 @@ body {
    FOOTER MOBILE
 ========================================= */
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 
     .footer-section {
         padding: 50px 0 25px;
@@ -1893,14 +1932,14 @@ body {
     }
 
     .footer-section .row {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 35px;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 25px;
+}
 
     .footer-section .row > :first-child {
-        grid-column: auto;
-    }
+    grid-column: 1 / -1;
+}
 
     .footer-desc {
         max-width: 100%;
@@ -1932,6 +1971,7 @@ body {
     letter-spacing: 1px;
     white-space: nowrap;
     }
+    
 }
 /* =========================================
    RESPONSIVE - SECTIONS
@@ -2015,10 +2055,7 @@ body {
 ========================================= */
 
 @media (max-width: 767px) {
-.guide-section {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
+
 .guide-section > .container {
         padding-left: 15px !important;
         padding-right: 15px !important;
@@ -2034,13 +2071,20 @@ body {
 .guide-section .section-title {
         width: 100%;
         max-width: 100%;
-        font-size: 32px;
+        font-size: 24px;
         line-height: 1.1;
     }
 .guide-section .guide-text {
         width: 100%;
         max-width: 100%;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.6;
+    }
+    .guide-subtitle {
+        font-size:24px;
+        
+    }
+    .guide-list-item  {
+        font-size: 14px;
     }
 }
