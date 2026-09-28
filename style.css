@@ -595,7 +595,7 @@ body {
         letter-spacing: -1.5px;
     }
 .hero-description {
-        font-size: 17px;
+        font-size: 14px;
         line-height: 1.7;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -614,7 +614,7 @@ body {
 .hero-demo-btn {
     width: auto;
     min-width: 0;
-    padding: 0 10px;
+    padding: 0 15px;
     font-size: 13px;
     white-space: nowrap;
 }
@@ -786,7 +786,7 @@ body {
 
 @media (max-width: 991px) {
 .trust-section {
-        padding: 70px 20px !important;
+        padding: 70px 15px !important;
     }
 .trust-section .trust-card {
         height: 150px !important;
@@ -1934,7 +1934,7 @@ body {
     .footer-section .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 35px 25px;
+    gap: 10px 25px;
 }
 
     .footer-section .row > :first-child {
@@ -1993,7 +1993,7 @@ body {
 }
 @media (max-width: 767px) {
     .section-padding {
-        padding: 50px 0;
+        padding: 0px;
     }
 
     .cta-section {
