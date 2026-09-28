@@ -786,7 +786,7 @@ body {
 
 @media (max-width: 991px) {
 .trust-section {
-        padding: 70px 15px !important;
+        padding: 70px 20px !important;
     }
 .trust-section .trust-card {
         height: 150px !important;
@@ -1993,7 +1993,7 @@ body {
 }
 @media (max-width: 767px) {
     .section-padding {
-        padding: 0px;
+        padding: 50px 0;
     }
 
     .cta-section {
